@@ -1,2 +1,18 @@
 Unidad 1
 https://docs.google.com/document/d/1KT3iS4-DaghIF7q7MyWvNFA6trUSJrFZtXep-tXTB2E/edit?usp=sharing
+
+
+
+Configuracion de maven build para publicar el proyecto en openshift
+
+-Dkubernetes.master=https://api.us-east-1.online-starter.openshift.com:6443
+-Dkubernetes.namespace=redlink2
+-Dkubernetes.auth.basic.username=TU_USUARIO
+-Dkubernetes.auth.token=TU_TOKEN
+-Dfabric8.mode=openshift
+-Dkubernetes.trust.certificates=true
+-Dfabric8.build.strategy=s2i
+-Dkubernetes.auth.tryServiceAccount=false
+-Dfabric8.generator.from=registry.access.redhat.com/fuse7/fuse-java-openshift
+-Dfabric8.generator.fromMode=docker
+-Dkubernetes.auth.tryKubeConfig=false
