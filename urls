@@ -4,6 +4,9 @@ https://docs.google.com/document/d/1KT3iS4-DaghIF7q7MyWvNFA6trUSJrFZtXep-tXTB2E/
 Unidad 2
 https://docs.google.com/document/d/14RwrymgYqq0cpRCG7xgs-koc59SFy8DeCh4IDrYNXGM/edit?usp=sharing
 
+Maven 3.5.3
+https://archive.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.zip
+
 Configuracion de maven build para publicar el proyecto en openshift
 
 -Dkubernetes.master=https://api.us-east-1.online-starter.openshift.com:6443
